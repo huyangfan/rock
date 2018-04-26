@@ -7,7 +7,7 @@ export default {
     uploadDir: 'uploads',
     publicDir:'public',
     mongodb: {
-        url: 'mongodb://localhost/rock',
+        url: 'mongodb://localhost:27017/rock',
         options: {
             keepAlive: 1
         }
@@ -19,7 +19,7 @@ export default {
         refreshIn: 12 * 3600 // 12小时之后的前端接口调用将重新颁发token 
     },
     // mysql:{
-    //     url: 'mysql://localhost/rock'
+    //     url: 'mysql://localhost:3306/rock'
     // },
 }
 
