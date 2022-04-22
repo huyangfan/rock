@@ -1,9 +1,9 @@
 import express from 'express';
-import usercontroller from './controller/user';
-import helper from './helper';
-import err from './error_codes';
-import auth from './middleware/auth';
-import config from '../config';
+import usercontroller from './controller/user.js';
+import helper from './helper.js';
+import err from './error_codes.js';
+import auth from './middleware/auth.js';
+import config from '../config/index.js';
 import multer from 'multer';
 
 const router = express.Router();

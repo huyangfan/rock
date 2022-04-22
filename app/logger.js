@@ -1,6 +1,6 @@
 import util from 'util';
 import winston from 'winston';
-import config from '../config';
+import config from '../config/index.js';
 import DailyRotateFile from 'winston-daily-rotate-file';
 
 var logger = winston.createLogger({

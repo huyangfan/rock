@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
-import config from '../../config';
-import errCodes from '../error_codes';
-import helper from '../helper';
+import config from '../../config/index.js';
+import errCodes from '../error_codes.js';
+import helper from '../helper.js';
 
 const auth = {
     // jwt token 

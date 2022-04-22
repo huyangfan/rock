@@ -1,7 +1,7 @@
-import base from './config.base';
-import dev from './config.dev';
-import local from './config.local';
-import prod from './config.prod';
+import base from './config.base.js';
+import dev from './config.dev.js';
+import local from './config.local.js';
+import prod from './config.prod.js';
 import fs from 'fs-extra';
 
 // extend base config with current env config

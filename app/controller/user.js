@@ -1,6 +1,6 @@
-import User from '../model/user';
-import helper from '../helper';
-import config from '../../config'
+import User from '../model/user.js';
+import helper from '../helper.js';
+import config from '../../config/index.js'
 
 export default {
     register: async (req, res, next) => {
